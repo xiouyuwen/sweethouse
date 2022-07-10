@@ -8,3 +8,25 @@
 .banner{
     margin-top: 30px;
 }
+.product-nav {
+    width: 300px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background: #3D250F;
+    font-size: 24px;
+    color: white;
+    padding: 16px 0;
+}
+.product-nav li{
+    border-right: 1px solid #F7DBBC;
+    border-left: 1px solid #F7DBBC;
+    border-bottom: 1px solid #F7DBBC;
+}
+.product-nav a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3D250F;   
+    padding: 16px 0 ;
+}
