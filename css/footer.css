@@ -66,3 +66,17 @@ h3{
     color: #A17E55;
     line-height: 1.5;
 }
+
+.info-slogan{
+    color: #3D250F;
+    font-size: 34px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+@media(max-width:768px){
+    .info-slogan{
+        display: none;
+    }
+}
