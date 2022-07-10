@@ -1,3 +1,4 @@
+
 .wrap{
     max-width: 1440px;
     margin: 0 auto;
@@ -211,36 +212,42 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 @media(max-width:768px){
     .product-list{
         flex-wrap: wrap;
+    }
+    .container{
+        max-width: 500px;
+    }
+}
+@media(max-width:576px){
+    .container{
+        max-width: 375px;
     }
 }
 .product-item{
     position: relative;
 }
 @media(max-width:768px){
-    .container{
-        max-width: 500px;
-    }
-    .product-item{
-        margin-bottom: 50px;
-    }
-}
-@media(max-width:576px){
-    .container{
-        max-width:375px;
-    }
     .product-item{
         margin-bottom: 30px;
     }
 }
 .product-img img{
-    width: 100%;
+    display: block;
 }
-
-
+@media(max-width:768px){
+    .product-img img{
+        width: 500px;
+    }
+}
+@media(max-width:576px){
+    .product-img img{
+        width: 375px;
+    }
+}
 .hot{
     background: #3D250F;
     color:white;
@@ -257,7 +264,7 @@ h2{
     top: 19px;
     right: 20px;
 }
-.product-info{
+.product-info {
     display: flex;
     border: 1px solid #F7DBBC;
 }
@@ -271,7 +278,16 @@ h2{
     padding: 14px 0;
     border-right: 1px solid #F7DBBC;
 }
-
+@media(max-width:768px){
+    .product-name{
+        width: 50%;
+    }
+}
+@media(max-width:576px){
+    .product-name{
+        width: 50%;
+    }
+}
 .product-price{
     width: 130px;
     color: #3D250F;
@@ -279,7 +295,16 @@ h2{
     font-weight: bold;
     padding: 14px 0;
 }
-
+@media(max-width:768px){
+    .product-price{
+        width: 50%;
+    }
+}
+@media(max-width:576px){
+    .product-price{
+        width: 50%;
+    }
+}
 .product-add a{
     color: #3D250F;
     background: #F7DBBC;
@@ -292,4 +317,72 @@ h2{
 .product-add a:hover{
     color: #F7DBBC;
     background: #3D250F;
+}
+.footer-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A17E55;
+}
+@media(max-width:768px){
+    .footer-mail{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+.mail-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 124px;
+}
+@media(max-width:768px){
+    .mail-slogan{
+        margin-right: 0;
+    }
+}
+.mail-slogan img{
+    padding: 38px 20px 38px 0;
+}
+h3{
+    color: white;
+    font-size: 24px;
+}
+.mail-box{
+    display: flex;
+}
+.add-mail img{
+    background: #F7DBBC;
+    padding: 16px 272px 16px 20px;
+}
+.enter-box img{
+    background: white;
+    padding: 16px 20px;
+}
+.footer-info{
+    background: #F7DBBC;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+@media(max-width:768px){
+    .container{
+        max-width: 500px;
+    }
+    .footer-box{
+        padding: 50px 100px;
+    }
+}
+@media(max-width:576px){
+    .container{
+        max-width: 375px;
+    }
+}
+.sweethouse-info p{
+    padding: 115px 0 30px 0;
+    color: #A17E55;
+    line-height: 1.5;
 }
