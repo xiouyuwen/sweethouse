@@ -14,4 +14,22 @@
 h4{
     font-size: 36px;
     font-weight: bold;
+    color: white;
+    padding: 40px 125px 40px 121px;
+}
+.member-login{
+    background: #3D250F;
+    
+}
+.account{
+    background: #fff0E5;
+    display: flex;
+    text-align: center;
+}
+.account img{
+    width: 24px;
+    padding: 16px 20px;
+}
+.info p{
+    padding: 18px 130px 16px 0 ;
 }
