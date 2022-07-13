@@ -56,7 +56,6 @@ h4{
 .cbox1{
     color: white;
 }
-
 .login-btn-box{
     margin-top: 30px;
 }
@@ -72,4 +71,18 @@ h4{
 .login-btn-box a:hover{
     background: #3d250f;
     color: #E8CAA7;
+}
+.login-media{
+    width: 390px;
+    background:#fff0e5;
+}
+.link-media{
+    color: #A17E55;
+    font-size: 24px;
+    padding: 40px 0;
+    text-align: center;
+}
+.media img{
+    background: #A17e55;
+    
 }
