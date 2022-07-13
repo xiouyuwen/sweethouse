@@ -6,3 +6,12 @@
     max-width: 940px;
     margin: 0 auto;
 }
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 36px;
+    font-weight: bold;
+}
