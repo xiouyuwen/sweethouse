@@ -63,18 +63,23 @@ h4{
 }
 .remember-box{
     display: flex;
+    margin-left: 30px;
 }
-@media(max-width:768px) {
+@media(max-width:768px){
     .remember-box{
-        margin-left: 188px;
-    }
-    
+        margin-left: 138px;
+    }  
+}
+@media(max-width:576px){
+    .remember-box{
+        margin-left: 122px;
+    }  
 }
 
 .checkbox{
     width: 16px;
     height: 16px;
-    margin: 0 8px 0 30px;
+    margin: 0 8px 0 0;
 }
 
 
