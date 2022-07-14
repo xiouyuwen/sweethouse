@@ -9,22 +9,39 @@
 .header{
     margin-top: 30px;
 }
+
 .login{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 66px;
     margin-bottom: 60px;
 }
+@media(max-width:768px){
+    .login{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
 .member-login{
     width: 390px;
     background: #3D250F;
-    
-
 }
+@media(max-width:768px){
+    .member-login{
+        width: 100%;
+    }
+}
+
+
+
 h4{
     font-size: 36px;
     font-weight: bold;
     color: white;
-    padding: 40px 125px 40px 121px;
+    padding: 40px 0;
+    text-align: center;
 }
 .account-card{
     display: flex;
@@ -46,13 +63,23 @@ h4{
 }
 .remember-box{
     display: flex;
-    align-items: center;
 }
+@media(max-width:768px) {
+    .remember-box{
+        margin-left: 188px;
+    }
+    
+}
+
 .checkbox{
     width: 16px;
     height: 16px;
     margin: 0 8px 0 30px;
 }
+
+
+
+
 .cbox1{
     color: white;
 }
@@ -75,14 +102,34 @@ h4{
 .login-media{
     width: 390px;
     background:#fff0e5;
+}  
+@media(max-width:768px){
+    .login-media{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .link-media{
     color: #A17E55;
     font-size: 24px;
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
+.media{
+    margin-bottom: 10px;
+}
+
 .media img{
     background: #A17e55;
-    
+    padding: 13px 110px;
+    margin-left: 30px;
 }
+@media(max-width:768px){
+    .media img{
+        margin-left: 0;
+    }
+}
+
