@@ -9,3 +9,108 @@
 .header{
     margin-top: 30px;
 }
+
+.cart-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 59px;
+}
+.cart-card{
+    max-width:620px ;
+}
+h5{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+    color: #3d250f;
+    background: #fff0e5;
+    text-align: center;
+    margin-bottom: 33px;
+    letter-spacing: 1px;
+}
+.cart-list{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cart-list img{
+    max-width: 110px;
+}
+.cake-name{
+    font-size: 20px;
+    color: #3d250f;
+    line-height: 1.5;
+    padding: 0 39px;
+}    
+.cake-num ul{
+    display: flex;
+}
+.cake-number{
+    font-size: 16px;
+    color: #3d250f;
+    padding: 13px 19px;
+    border: 1px solid #fff0e5;
+}
+.total{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d250f;
+    padding: 0 38px;
+}
+.trush-box {
+    opacity: 0.5;
+}
+.order-card{
+    max-width: 300px;
+    height: 193px;
+    text-align: center;
+    background:#3d250f;
+}
+h6{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 16px 100px;
+    letter-spacing: 1px;
+}
+.border{
+    max-width: 260px;
+    border-top: 1px solid white;
+    margin-left: 20px;
+}
+.order-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 16px 0;
+    padding: 0 20px;
+}    
+.total-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.total-name,.total-money{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.check-btn a{
+    display: block;
+    padding: 16px 0;
+    font-size: 24px;
+    color: #3d250f;
+    background: #fff0e5;
+}
+.check-btn a:hover{
+    background:#3d250f;
+    color: #fff0e5;
+}
+
