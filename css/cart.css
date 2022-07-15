@@ -24,6 +24,11 @@
 .cart-card{
     max-width:620px ;
 }
+@media(max-width:768px){
+    .cart-card{
+        max-width:550px
+    }
+}
 h5{
     font-size: 24px;
     font-weight: bold;
@@ -40,6 +45,7 @@ h5{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .cart-list img{
     max-width: 110px;
 }
@@ -157,3 +163,6 @@ h6{
     color: #fff0e5;
 }
 
+.footer-info{
+    padding-left: -20px;
+}
