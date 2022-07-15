@@ -16,6 +16,11 @@
     justify-content: space-between;
     margin-bottom: 59px;
 }
+@media(max-width:768px){
+    .cart-box{
+        flex-direction: column;
+    }
+}
 .cart-card{
     max-width:620px ;
 }
@@ -43,7 +48,12 @@ h5{
     color: #3d250f;
     line-height: 1.5;
     padding: 0 39px;
-}    
+}  
+@media(max-width:768px){
+    .cake-name{
+        padding: 0 31px;
+    }
+}
 .cake-num ul{
     display: flex;
 }
@@ -53,11 +63,21 @@ h5{
     padding: 13px 19px;
     border: 1px solid #fff0e5;
 }
+@media(max-width:768px){
+    .cake-number{
+        padding: 7px 13px;
+    }
+}
 .total{
     font-size: 20px;
     font-weight: bold;
     color: #3d250f;
     padding: 0 38px;
+}
+@media(max-width:768px){
+    .total{
+        padding: 0 26px;
+    }
 }
 .trush-box {
     opacity: 0.5;
@@ -67,6 +87,14 @@ h5{
     height: 193px;
     text-align: center;
     background:#3d250f;
+}
+@media(max-width:768px){
+    .order-card{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 550px;
+    }
 }
 h6{
     font-size: 24px;
@@ -80,6 +108,11 @@ h6{
     border-top: 1px solid white;
     margin-left: 20px;
 }
+@media(max-width:768px){
+    .border{
+        display: none;
+    }
+}
 .order-list{
     display: flex;
     justify-content: space-between;
@@ -88,6 +121,11 @@ h6{
     margin: 16px 0;
     padding: 0 20px;
 }    
+@media(max-width:768px){
+    .order-list{
+        padding: 0 40px;
+    }
+}
 .total-list{
     display: flex;
     justify-content: space-between;
@@ -96,6 +134,11 @@ h6{
     margin-top: 30px;
     padding: 0 20px;
     margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .total-list{
+        padding: 0 40px;
+    }
 }
 .total-name,.total-money{
     font-size: 20px;
