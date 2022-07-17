@@ -10,6 +10,10 @@
     margin-top: 30px;
 }
 
+.check-info{
+    max-width: 460px;
+    margin-top: 30px;
+}
 
 
 
@@ -37,6 +41,89 @@
 
 
 
+
+.order-card{
+    max-width: 300px;
+    height: 193px;
+    text-align: center;
+    background:#3d250f;
+}
+@media(max-width:768px){
+    .order-card{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 550px;
+    }
+}
+@media(max-width:576px){
+    .order-card{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 375px;
+    }
+}
+h6{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 16px 100px;
+    letter-spacing: 1px;
+}
+.border{
+    max-width: 260px;
+    border-top: 1px solid white;
+    margin-left: 20px;
+}
+@media(max-width:768px){
+    .border{
+        display: none;
+    }
+}
+.order-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 16px 0;
+    padding: 0 20px;
+}    
+@media(max-width:768px){
+    .order-list{
+        padding: 0 40px;
+    }
+}
+.total-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .total-list{
+        padding: 0 40px;
+    }
+}
+.total-name,.total-money{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.check-btn a{
+    display: block;
+    padding: 16px 0;
+    font-size: 24px;
+    color: #3d250f;
+    background: #fff0e5;
+}
+.check-btn a:hover{
+    background:#3d250f;
+    color: #fff0e5;
+}
 
 
 .footer-info{
