@@ -9,55 +9,68 @@
 .header{
     margin-top: 30px;
 }
-.check{
+.checkout{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 65px;
-    
 }
-.check-info{
-    max-width: 460px;
-    
-    background: #3d250f;
-    color: white;
+.checkout-card{
+    width: 460px;
+    background: #3d250f;   
 }
 .people-info{
-    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-left: -4px;
 }
 h1{
     font-size: 36px;
     font-weight: bold;
-    padding: 30px 348px 40px 0;
-    
+    color: white;
+    padding: 30px 0;
+    padding-left: 40px;
 }
-.check-people{
-    display: flex;
-    margin-right: -9px;
+.people-info-box{
+    padding-right: 4px;
+    padding-left: 4px;
 }
-.check-name{
-    padding-right: 9px;
-}
-.check-name p{
-    font-size: 20px;
+.people-info-box p{
+    color: white;
+    font-weight: bold;
+    padding: 16px 0 8px 0;
 }
 .check-box{
-    width:180px;
-    height: 56px;
+    outline-style: none;
+    width: 176px;
+    height: 50px;
+    font-size: 18px;
     background: #fff0e5;
-    margin: 8px 0 16px 0;
 }
-.check-phonebox{
-    width: 377px;
-    height: 56px;
+.check-box2{
+    outline-style: none;
+    width: 368px;
+    height: 50px;
+    font-size: 18px;
     background: #fff0e5;
-    margin: 8px 0 16px 0;
 }
-.add-box{
-    width: 377px;
-    height: 56px;
+.check-box3{
+    outline-style: none;
+    width: 183px;
+    height: 50px;
+    font-size: 18px;
     background: #fff0e5;
-    margin-bottom: 40px;
+}
+.check-box4{
+    outline-style: none;
+    width: 368px;
+    height: 50px;
+    font-size: 18px;
+    background: #fff0e5;
+    margin: 8px 0 30px 0;
 }
 .next-btn a{
     display: block;
@@ -72,44 +85,27 @@ h1{
     color: #fff0e5;
     background: #3d250f;
 }
-.shopping-order{
-    width: 300px;
-}
-.order-card{
-    border: 1px solid #A17e55;
+.checkout-order{
     margin-left: 20px;
-    margin-bottom: 20px;
 }
-@media(max-width:768px){
-    .order-card{
-        max-width: 100%;
-    }
-    .container{
-        max-width: 550px;
-    }
-}
-@media(max-width:576px){
-    .order-card{
-        max-width: 100%;
-    }
-    .container{
-        max-width: 375px;
-    }
+.checkout-list{
+    width: 300px;
+    
 }
 h2{
     font-size: 24px;
+    font-weight: bold;
     color: white;
-    background: #A17e55;
-    text-align: center;
+    background: #3d250f;
     padding: 16px 0;
+    text-align: center;
     letter-spacing: 1px;
 }
-
 .order-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #A17e55;
+    color: #3d250f;
     margin: 16px 0;
     padding: 0 20px;
 }    
@@ -122,7 +118,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #A17e55;
+    color: #3d250f;
     margin-top: 30px;
     padding: 0 20px;
     margin-bottom: 20px;
@@ -136,34 +132,35 @@ h2{
     font-size: 20px;
     font-weight: bold;
 }
+.checkout-order{
+
+}
+@media(max-width:768px){
+    .checkout-order{
+        display: none;
+    }
+}
 .shopping-pro{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-top: 16px;
-    padding-left: 20px;
+    margin: 7px 0;
+    
 }
 .product-img{
-    width: 72px;
-    padding-right:38px;
+    width: 80px;
+    padding-right:30px;
 }
 .product-name p{
-    font-size: 20px;
-    color: #A17e55;
+    font-size: 18px;
+    color: #3d250f;
     padding-bottom: 10px;
 }
 .product-name span{
-    font-size: 24px;
-    color: #A17e55;
+    font-size: 22px;
+    color: #3d250f;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
 
 
 
