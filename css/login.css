@@ -61,17 +61,25 @@ h4{
     align-items: center;
 }
 .account{
-    width: 330px;
+    
     background: #fff0e5;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    
 }
 .account img{
     padding: 16px 20px;
 }
-.info{
-    color: #A17E55;
+.account-box{
+    width: 266px;
+    background: #fff0e5;
+    border: 0;
+    outline-style: none;
+    font-size: 20px;
+}
+.account-box::placeholder{
+    color: #A17e55;
 }
 .remember-box{
     display: flex;
