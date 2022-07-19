@@ -1,0 +1,52 @@
+.wrap{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 30px;
+}
+h1{
+    color: #3D250F;
+    font-size: 34px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+@media(max-width:768px){
+    h1{
+        display: none;
+    }
+}
+.checkout-success-banner{
+    margin-top: 30px;
+    height: 460px;
+    background-image: url(https://github.com/xiouyuwen/sweethouse/blob/main/sweet-image/8.jpg?raw=true);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.checkout-success-banner h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+.go-shopping{
+    text-align: center;
+}
+.go-shopping a{
+    font-size: 24px;
+    text-align: center;
+    padding: 17px 102px;
+    background: #fff0e5;
+    color:#3d250f;
+}
+.go-shopping a:hover{
+    background: #3d250f;
+    color:#fff0e5;
+}
