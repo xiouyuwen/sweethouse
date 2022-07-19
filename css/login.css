@@ -9,7 +9,19 @@
 .header{
     margin-top: 30px;
 }
-
+h1{
+    color: #3D250F;
+    font-size: 34px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+@media(max-width:768px){
+    h1{
+        display: none;
+    }
+}
 .login{
     display: flex;
     justify-content: center;
