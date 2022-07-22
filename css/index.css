@@ -348,6 +348,11 @@ h3{
     color: white;
     font-size: 24px;
 }
+@media(max-width:414px){
+    h3{
+        font-size: 20px;
+    }
+}
 
 .add-mail{
     display: flex;
@@ -356,21 +361,27 @@ h3{
 }
 
 .add-mail-box{
-    
     background: #fff0e5;
     font-size: 24px;
     border: 0 ;
     outline-style:none;
 }
-
+@media(max-width:414px){
+    .add-mail-box{
+        width: 180px;
+    }
+}
 .mail-img{
     background: #fff0e5;
     padding: 16px 20px;
 }
+
+
 .enter-box{
     background: #A17e55;
     padding: 15px 20px;
 }
+
 
 .footer-info{
     background: #F7DBBC;
