@@ -89,3 +89,13 @@ h3{
     color: #A17E55;
     line-height: 1.5;
 }
+@media(max-width:414px){
+    .sweethouse-info p{
+        font-size: 16px;
+    }
+}
+@media(max-width:414px){
+    .sweethouse-info p{
+        font-size: 14px;
+    }
+}

@@ -179,3 +179,11 @@ h6{
 .footer-info{
     padding-left: -20px;
 }
+
+
+
+@media(max-width:414px){
+    h1{
+        display: none;
+    }
+}
