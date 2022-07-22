@@ -362,11 +362,7 @@ h3{
     border: 0 ;
     outline-style:none;
 }
-@media(max-width:768px){
-    add-mail-box{
-        width:240px;
-    }
-}
+
 .mail-img{
     background: #fff0e5;
     padding: 16px 20px;
